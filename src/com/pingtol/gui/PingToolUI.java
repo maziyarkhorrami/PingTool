@@ -8,7 +8,6 @@ package com.pingtol.gui;
 import com.pingtool.logic.Geraete;
 import com.pingtool.logic.IpFieldWorker;
 import com.pingtool.logic.Ping;
-import com.pingtool.logic.IpRunnable;
 import com.sun.corba.se.spi.orbutil.threadpool.ThreadPool;
 import java.awt.Color;
 import java.awt.Font;

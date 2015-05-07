@@ -207,7 +207,7 @@ public class IpFieldWorker extends SwingWorker<Void, Integer> {
         try {
             errorMail.send(ipEMail, eMailText, eMailTitle);
         } catch (MessagingException ex) {
-            Logger.getLogger(IpRunnable.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(IpFieldWorker.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -222,7 +222,7 @@ public class IpFieldWorker extends SwingWorker<Void, Integer> {
         try {
             errorMail.send(ipEMail, eMailText, eMailTitle);
         } catch (MessagingException ex) {
-            Logger.getLogger(IpRunnable.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(IpFieldWorker.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
