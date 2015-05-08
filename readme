@@ -1,3 +1,23 @@
-https://www.google.com/settings/security/lesssecureapps
+Ping Tool  -  1.0.0
 
-a new gmail to send e-mails : pingtoolmaziyarkhorrami@gmail.com
+
+The Ping Tool Software pings 20 different tools (IP Adresses) simultaneously.
+To run the software the "Start Ping" Button should be pushed two times. The first one to Initialize the IP Addresses and the second one to Fire the Ping command for all 20 IP Addresses.(So plese do not forget to push 2 times !) 
+- IP Adresses are chosen automatically and randomly .
+- Tool name can be chosen from the list .
+- Threshold can be chosen from the list (Measure is Second). The threshold defines the duration for ALARM and CLEAR E-Mail sending process. 
+- MAX Sequentiality is defined to choose the Maximum time that an IP Adress respond or does not respond sequentially. in these two cases Software sends CLEAR or ALARM EMail. 
+- IP Interval can be chosen from the list and it is defined as Seconds.
+- E-Mail adress can be set to your E-Mail adress. The software sends CLEAR and ALARM E-Mails to this E-Mail adress. 
+- ALARM E-Mail is sent when the the IP adress is not available in two cases : 1-  when the IP Adress does not respond in less than the defined threshold and 2 -  when the IP Adress does not respond after defined number of times sequential (MAX Sequentiality).  
+
+-The sender E-Mail adress is set to a G-Mail account which belongs to the Admin and has a limitation of 500 sended E-Mails per day. (use this amount weisly). You can set your your E-Mail sender server in IpFieldWorker.java in sendClearEmail and sendalramEmail methods. 
+
+- It should be mentioned that Availability or Unavailability of an IP Adresses is set completely randomly and automatically via software and it is not controlable by the user. 
+
+- To run the jar file you should have minimum JDK 6 in your system. 
+- The software is run and tested on Ubuntu 14.04 and works like a charm ! 
+- Enjoy It ! 
+
+- if you have a problem please do not hesitate to contact me : 
+ maziyarkhorrami@gmail.com
