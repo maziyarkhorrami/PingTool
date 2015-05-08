@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.pingtol.gui;
+package com.pingtool.gui;
 
 import com.pingtool.logic.Geraete;
 import com.pingtool.logic.IpFieldWorker;
@@ -578,7 +578,6 @@ public class PingToolUI extends javax.swing.JFrame {
         ip20IntervaljComboBox = new javax.swing.JComboBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1000, 2000));
 
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
@@ -679,8 +678,6 @@ public class PingToolUI extends javax.swing.JFrame {
                     .addComponent(ip2EMailjTextFieldValue, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(21, Short.MAX_VALUE)))
         );
-
-        ip2jLabelCaption.getAccessibleContext().setAccessibleName("IP 2:");
 
         ipOneStopjButton.setText("Stop Pinging");
         ipOneStopjButton.addActionListener(new java.awt.event.ActionListener() {
@@ -3204,7 +3201,6 @@ public class PingToolUI extends javax.swing.JFrame {
     private javax.swing.JLabel ip19availabilityjLabel;
     private javax.swing.JLabel ip19jLabelCaption;
     private javax.swing.JLabel ip1IntervaljLabel;
-    private javax.swing.JLabel ip1IntervaljLabel9;
     private javax.swing.JLabel ip20AvailabilityjLableValue;
     private javax.swing.JLabel ip20EMailjLabel;
     private javax.swing.JTextField ip20EMailjTextFieldValue;
@@ -3331,37 +3327,23 @@ public class PingToolUI extends javax.swing.JFrame {
     private javax.swing.JLabel ip9availabilityjLabel;
     private javax.swing.JLabel ip9jLabelCaption;
     private javax.swing.JLabel ipONEavailabilityjLabel;
-    private javax.swing.JLabel ipONEavailabilityjLabel9;
     private javax.swing.JLabel ipOneAvailabilityjLableValue;
-    private javax.swing.JLabel ipOneAvailabilityjLableValue9;
     private javax.swing.JLabel ipOneEMailjLabel;
-    private javax.swing.JLabel ipOneEMailjLabel9;
     private javax.swing.JTextField ipOneEMailjTextFieldValue;
-    private javax.swing.JTextField ipOneEMailjTextFieldValue9;
     private javax.swing.JLabel ipOneIPAdress;
-    private javax.swing.JLabel ipOneIPAdress9;
     private javax.swing.JComboBox ipOneIntervaljComboBox;
-    private javax.swing.JComboBox ipOneIntervaljComboBox9;
     private javax.swing.JComboBox ipOneMaxSchwellwertListjComboBox;
-    private javax.swing.JComboBox ipOneMaxSchwellwertListjComboBox9;
     private javax.swing.JLabel ipOneMaxSequentialityListjLable;
-    private javax.swing.JLabel ipOneMaxSequentialityListjLable9;
     private javax.swing.JComboBox ipOneNamesListjComboBox;
-    private javax.swing.JComboBox ipOneNamesListjComboBox9;
     private javax.swing.JLabel ipOneNamesListjLable;
     private javax.swing.JLabel ipOneNamesListjLable3;
-    private javax.swing.JLabel ipOneNamesListjLable9;
     private javax.swing.JComboBox ipOneSchwellwertListjComboBox;
-    private javax.swing.JComboBox ipOneSchwellwertListjComboBox9;
     private javax.swing.JLabel ipOneSchwellwertListjLable;
-    private javax.swing.JLabel ipOneSchwellwertListjLable9;
     private javax.swing.JButton ipOneStopjButton;
     private javax.swing.JLabel ipOnejLabelCaption;
-    private javax.swing.JLabel ipOnejLabelCaption9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
